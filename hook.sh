@@ -1,4 +1,7 @@
-#run_hook() {
+#!/usr/bin/env bash
+
+
+run_hook() {
     dir_pre_mount_handler="${mount_handler:-default_mount_handler}"
     mount_handler=dir_mount_handler
 }
