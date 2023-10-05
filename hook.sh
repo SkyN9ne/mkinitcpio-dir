@@ -1,4 +1,4 @@
-run_hook() {
+#run_hook() {
     dir_pre_mount_handler="${mount_handler:-default_mount_handler}"
     mount_handler=dir_mount_handler
 }
